@@ -11,7 +11,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket         = "app-static-site-s3"
+    bucket         = "tf-terraform-hello-world-state-uriel1"
     key            = "terraform.tfstate"
     dynamodb_table = "dynamo-uriel1"
     region         = "us-east-1"
