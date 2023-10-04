@@ -1,8 +1,9 @@
-name: IaC Lifecycle
+name: Uriel
 
 on:
   push:
     branches:
+    - develop  
     - main
 
 jobs:
